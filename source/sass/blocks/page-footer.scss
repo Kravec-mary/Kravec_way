@@ -1,0 +1,145 @@
+.page-footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 113px;
+    font-size: 14px;
+    padding: 89px 397px 0 374px;
+
+    @media (max-width: $tablet-width) {
+        padding: 49px 25px 0 16px;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    @media (max-width: $mobile-width) {
+        padding: 0px 32px;
+    }
+}
+
+
+
+.page-footer__wrapper h5 {
+  font-size: 18px;
+
+  @media (max-width: $mobile-width) {
+    margin-top: 16px;
+  }
+
+  @media (max-width: $mobile-width) {
+    margin-bottom: 20px;  
+  }
+}
+
+.page-footer__next-travel h5 {
+    @media (max-width: $tablet-width) {
+       margin-bottom: 20px; 
+    }
+}
+
+.page-footer__next-travel ul {
+    list-style: none;
+    padding-left: 0;
+    column-count: 3;
+    column-gap: 48px;
+
+    @media (max-width: $tablet-width) {
+      column-gap: 31px;
+    }
+
+    @media (max-width: $tablet-width) {
+      column-gap: 15px;  
+    } 
+}
+
+.page-footer__next-travel li {
+    padding-bottom: 4px;
+
+    @media (max-width: $tablet-width) {
+        padding-bottom: 7px;
+    }
+}
+
+
+.page-footer__contacts ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.page-footer__contacts {
+  @media (max-width: $tablet-width) {
+      padding-right: 20px;
+  }
+
+}
+
+.page-footer__contacts a {
+    text-decoration: none;
+    color: $peach-color;
+}
+
+.page-footer__phone {
+    font-size: 16px;
+    background-image: url(../img/phone.svg);
+    background-repeat: no-repeat;
+    text-align: right;
+    width: 201px;
+    height: 30px;
+}
+
+.page-footer__email {
+    //@extend: 20px;
+    width: 249px;
+    height: 40px;
+    background-image: url(../img/email.svg);
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+    text-align: right;
+}
+
+.page-footer__corporate {
+
+  @media (max-width: $tablet-width) {
+    padding-top: 30px;
+  }
+}
+
+.page-footer__corporate h5{
+  @media (max-width: $tablet-width) {
+    text-align: center;  
+  }
+}
+
+.page-footer__corporate p{
+
+  line-height: 23px;
+
+  @media (max-width: $tablet-width) {
+    text-align: center;
+    line-height: 23px;  
+  }
+}
+
+.page-footer__table td:nth-child(1) {
+    padding-right: 30px;
+}
+
+.page-footer__table td:nth-child(3) {
+    padding-right: 30px;
+
+    @media (max-width: $mobile-width) {
+    
+    }
+}
+
+.page-footer__table td {
+    width: 95px;
+    padding-bottom: 7px;
+}
+
+.page-footer__table tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

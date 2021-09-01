@@ -1,0 +1,111 @@
+.description {
+  width: 100%;
+  height: 860px;
+  color: $white;
+  background-image: url("../img/background-desktop.png");
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/background-desktop@2x.png");
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: $tablet-width) {
+    background-image: url("../img/background-tablet.jpg");
+    background-repeat: no-repeat;
+    height: 345px;
+  }
+
+  @media (max-width: $mobile-width) {
+    background-image: url("../img/background-mobile.jpg");
+    background-repeat: no-repeat;
+  }
+}
+
+.description__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 148px 473px 0 1065px;
+
+  @media(max-width: $tablet-width) {
+    align-items: center;
+    width: 56%;
+    padding: 36px 170px 0 167px; 
+  }
+
+  @media(max-width: $mobile-width) {
+    padding: 63px 0 0 0;
+    width: 100%;
+  }
+}
+
+.description__title {
+  font-size: 55px;
+  line-height: 80px;
+  margin-bottom: 9px;
+
+  @media(max-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    margin-bottom: 85px;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+.description__subtitle {
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 33px;
+
+  @media(max-width: $tablet-width) {
+    margin-bottom: 9px;
+    text-align: center;
+  }
+
+  @media (max-width: $mobile-width) {
+    color: $black;
+    padding: 0 16px 0 16px;
+     margin-bottom: 19px;
+    }  
+  }
+
+.description__button {
+  width: 340px;
+  height: 75px;
+  font-family: 'Montserrat';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: $peach-color;
+  color: $white;
+  padding-right: 145px;
+  letter-spacing: 2px;
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 88% 52%;
+
+  @media(max-width: $tablet-width) {
+    padding-right: 39px; 
+    width: 250px;
+    height: 50px; 
+    font-size: 10px;
+  }
+
+  @media (max-width: $mobile-width) {
+    padding-right: 108px;
+    width: 288px;  
+  }  
+}
