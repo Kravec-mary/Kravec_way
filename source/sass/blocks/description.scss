@@ -4,7 +4,7 @@
   color: $white;
   background-image: url("../img/background-desktop.png");
   background-repeat: no-repeat;
-  background-color: lightblue;
+  //background-color: lightblue;
   
   @media (min-resolution: 2dppx) {
     background-image: url("../img/background-desktop@2x.png");
@@ -69,7 +69,7 @@
   margin-bottom: 33px;
 
   @media(max-width: $tablet-width) {
-    margin-bottom: 9px;
+    margin-bottom: 3px;
     text-align: center;
   }
 
@@ -81,31 +81,36 @@
   }
 
 .description__button {
-  width: 340px;
-  height: 75px;
+  width: 167px;
+  height: 44px;
   font-family: 'Montserrat';
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
   text-transform: uppercase;
   border: 0;
-  background-color: $peach-color;
-  color: $white;
-  padding-right: 145px;
+  background-color: #fe7865;
+  color: #fff;
+  padding-right: 132px;
   letter-spacing: 2px;
   background-image: url(../img/arrow.svg);
   background-repeat: no-repeat;
-  background-position: 88% 52%;
+  background-position: 88% 48%;
+  padding-left: 51px;
+  padding-top: 32px;
+  text-decoration: none;
 
   @media(max-width: $tablet-width) {
-    padding-right: 39px; 
-    width: 250px;
-    height: 50px; 
+    padding-right: 62px;
+    width: 151px;
+    height: 10px;
     font-size: 10px;
+    padding-bottom: 22px;
+    padding-top: 18px;
   }
 
   @media (max-width: $mobile-width) {
-    padding-right: 108px;
-    width: 288px;  
+    padding-right: 60px;
+    width: 172px;
   }  
 }

@@ -39,7 +39,7 @@
             <div class="description__wrapper">
               <h1 class="description__title">Путешествие по Европе</h1>
               <p class="description__subtitle">В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.</p>
-              <button class="description__button" type="button" aria-label="Кнопка смотреть тур">Смотреть тур</button>
+              <a class="description__button" href="#tabs" type="button" aria-label="Кнопка смотреть тур">Смотреть тур</a>
             </div>
           </section>
           <section class="places" id="travel">
@@ -105,7 +105,7 @@
              </ul>
             </div> 
           </section>
-          <section class="location-description">
+          <section class="location-description" id="tabs">
                 <div class="location-description__wraper">
                   <ul class="location-description__list tabs-nav"> 
                     <li class="location-description__item is-active" data-tab-name="tab-1">Греция</li>
@@ -324,25 +324,33 @@
       </main>
       <footer class="page-footer">
         <div class="page-footer__wrapper">
+          
           <div class="page-footer__next-travel">
             <h5>Следующие путешествия</h5>
-             <ul>
+            <ul class="page-footer__list-container">
+              <ul class="page-footer__list">
               <li>Марсель</li>
               <li>Ним</li>
               <li>Монпелье</li>
               <li>Барселона</li>
               <li>Пальма</li>
+              </ul>
+              <ul class="page-footer__list">
               <li>Сардиния</li>
               <li>Палермо</li>
               <li>Катания</li>
               <li>Неаполь</li>
               <li>Рим</li>
+              </ul>
+              <ul class="page-footer__list">
               <li>Корс</li>
               <li>Ницца</li>
               <li>КМонако</li>
               <li>Динь-ле-Бен</li>
               <li>Гренобль</li>
+              </ul>
             </ul>
+            
           </div>
           <div class="page-footer__contacts">
             <h5>Наши контакты</h5>

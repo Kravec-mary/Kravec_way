@@ -101,6 +101,10 @@
   }
 }
 
+.location-description__btn:hover {
+  background-color: $orange;
+}
+
 .location-description__box {
   display: flex;
   flex-direction: row;

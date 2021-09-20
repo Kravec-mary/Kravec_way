@@ -77,13 +77,16 @@
 }
 
 .questions__inputs input {
-    width: 261px;
-    height: 50px;
+  width: 252px;
+  height: 48px;
+  padding-left: 12px;
+  font-size: 14px;
+  font-family: 'Montserrat';
 
-    @media (max-width: $tablet-width) {
-      width: 268px;
-      height: 45px;
-    }
+  @media (max-width: $tablet-width) {
+    width: 268px;
+    height: 45px;
+  }
 }
 
 .questions__inputs {
